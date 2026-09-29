@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK 23</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow">
+        <div class="container">
+            <a class="navbar-brand text-warning fs-3 fw-bold" href="./index.html">SHOP</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link fs-5 active" aria-current="page" href="./index.html">Products</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="py-5">
+        <div class="container">
+            <h1 class="mb-0 text-center">Products</h1>
+
+            <ul class="taps rounded my-5 bg-warning list-unstyled gap-4 py-2 px-3 mx-auto">
+                <div class="row g-3">
+                    <div class="col-12">
+                        <li onclick="showProducts()" class="bg-white text-center px-4 py-1 rounded-2 fw-semibold">ALL
+                        </li>
+                    </div>
+                    <div class="col-6">
+                        <li onclick="showBeauty()" class="bg-white text-center px-4 py-1 rounded-2 fw-semibold">BEAUTY
+                        </li>
+                    </div>
+                    <div class="col-6">
+                        <li onclick="showFragrances()" class="bg-white text-center px-4 py-1 rounded-2 fw-semibold">FRAGRANCES
+                        </li>
+                    </div>
+                    <div class="col-6">
+                        <li onclick="showFurniture()" class="bg-white text-center px-4 py-1 rounded-2 fw-semibold">FURNITURE
+                        </li>
+                    </div>
+                    <div class="col-6">
+                        <li onclick="showTshirt()" class="bg-white text-center px-4 py-1 rounded-2 fw-semibold">GROCERIES
+                        </li>
+                    </div>
+                </div>
+            </ul>
+
+            <div class="products row g-3">
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="product shadow rounded-3 overflow-hidden">
+                        <img src="../TASK 11/TASK 11/IMAGES/home-one.png" alt="gg">
+                        <div class="content p-3 d-flex flex-column align-items-start gap-2">
+                            <h2 class="mb-0 text-uppercase">MOHAN</h2>
+                            <p class="mb-0 text-muted">SFVSV</p>
+                            <span class="fw-bold">VDADEV</span>
+                            <button class="btn btn-info text-uppercase fw-semibold align-self-center">buy now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <script src="./main.js"></script>
+
+</body>
+
+</html>

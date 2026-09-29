@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.active{
+    opacity: 0.5;
+}
+
+main .taps{
+    width: fit-content;
+}
+
+main .taps li{
+    cursor: pointer;
+}
+
+main .products .product img{
+    height: 250px;
+    object-fit: cover;
+}
