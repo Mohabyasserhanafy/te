@@ -16,6 +16,12 @@ main .taps li{
     cursor: pointer;
 }
 
+main .products .product p,
+main .products .product h2
+{
+    max-width: 200px;
+}
+
 main .products .product img{
     height: 250px;
     object-fit: cover;
